@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    color: White;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    flex-wrap: wrap;
+    backdrop-filter: blur(10px);
+}
+
+#nav-items {
+    margin-left: 20px;
+}
+
+#company-name {
+    margin-right: 20px;
+    font-weight: bolder;
+}
+
+#nav-items, #company-name {
+    padding: 15px;
+}
+
+#ol {
+    display: flex;
+} 
+
+li {
+    display: inline-block;
+}
+
+a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    /* color: blue; */
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}  
+
+

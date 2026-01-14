@@ -1,0 +1,55 @@
+<!--
+
+CSS position: fixed
+An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used set the final location of the element.
+
+A fixed element does not leave a gap in the page where it would normally have been located.
+
+This <div> element has position: fixed;
+Notice the fixed element in the lower-right corner of the page. Here is the CSS that is used:
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #logo {
+            height: 100px;
+            width: 100px;
+            border: 2px solid blue;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="log">
+        <img id="logo" src="https://img.icons8.com/?size=96&id=17949&format=png" alt="Googlr log">
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1761850648640-2ee5870ee883?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4fHx8ZW58MHx8fHx8" alt="">
+    <img src="https://images.unsplash.com/photo-1767875762123-ef62592784f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D">
+    <img src="https://images.unsplash.com/photo-1766548730089-e446483315b1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D" alt="">
+    
+</body>
+</html>
